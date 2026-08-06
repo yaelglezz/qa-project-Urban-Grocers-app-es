@@ -87,7 +87,7 @@ def test_create_kit_user_empty_name_get_error_response():
 
 # Prueba 4. Error. El parámetro name contiene 512 caracter
 def test_create_kit_user_512_letter_in_name_get_error_response():
-     negative_assert("a" * 512)
+     negative_assert("a"*512)
 
 # Prueba 5. Kit creado con éxito. El parámetro name contiene un string de caracteres especiales
 def test_create_kit_user_has_special_symbol_in_name_get_error_response():
