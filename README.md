@@ -34,6 +34,7 @@ La API de prueba (stand) tiene endpoints para crear usuarios y crear "kits" de p
 ## 📁 Estructura del proyecto
  
 ```
+├── .gitignore
 ├── configuration.py   # URLs base y rutas (paths) de los endpoints
 ├── data.py             # Datos de prueba: headers y bodies base (usuario, kit)
 ├── sender_stand_request.py   # Funciones que envían las solicitudes HTTP a la API
