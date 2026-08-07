@@ -91,7 +91,7 @@ def test_create_kit_user_512_letter_in_name_get_error_response():
 
 # Prueba 5. Kit creado con éxito. El parámetro name contiene un string de caracteres especiales
 def test_create_kit_user_has_special_symbol_in_name_get_error_response():
-     negative_assert("№%@,")
+     positive_assert("№%@,")
 
 # Prueba 6. Kit creado con éxito. El parámetro name contiene espacio en el string
 def test_create_kit_user_with_space_in_name_get_success_response():
